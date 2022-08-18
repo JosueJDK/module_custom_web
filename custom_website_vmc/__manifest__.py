@@ -1,14 +1,12 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "add_descuento_product",
+    'name': "Custom Website",
 
     'summary': """
-        Custom Website Eccommerce
-        """,
+        Custom Website Eccommerce""",
 
     'description': """
-        Show the percentage of discount in product catalog.
-    """,
+        Add logo for show discount of a product.""",
 
     'author': "VMC Solutions",
     'website': "http://www.yourcompany.com",
@@ -27,7 +25,6 @@
         # 'security/ir.model.access.csv',
         'views/views.xml',
         'views/templates.xml',
-        'views/templates_02.xml',
     ],
     # only loaded in demonstration mode
     'demo': [

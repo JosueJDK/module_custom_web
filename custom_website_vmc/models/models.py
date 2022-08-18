@@ -3,9 +3,9 @@
 # from odoo import models, fields, api
 
 
-# class add_descuento_product(models.Model):
-#     _name = 'add_descuento_product.add_descuento_product'
-#     _description = 'add_descuento_product.add_descuento_product'
+# class custom_website_vmc(models.Model):
+#     _name = 'custom_website_vmc.custom_website_vmc'
+#     _description = 'custom_website_vmc.custom_website_vmc'
 
 #     name = fields.Char()
 #     value = fields.Integer()
