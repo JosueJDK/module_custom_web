@@ -7,7 +7,7 @@ for (var x = 0; x < lista1.length; x++) {
     let v2 = parseFloat(lista2[x].innerHTML);
     let calc = 100 - (Math.round(((v2 * 100 ) / v1)));
     if(calc == 0){
-        lista3[x].innerHTML = "SALE"
+        document.getElementsByClassName("value_discount")[x].style.display ="none"
     }else{
         lista3[x].innerHTML = "-" + calc + "%"
     }
